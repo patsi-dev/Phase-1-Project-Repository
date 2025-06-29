@@ -1,10 +1,8 @@
 # AIRCRAFT SAFETY AND RISK RECOMMENDATION FOR NEW INVESTORS  
 ## Introduction  
-Not every aircraft is made the same. Some planes have proven over time to be safer than others. Others may fly well but when something goes wrong, things go really bad. As we look into entering the aviation space — whether private or commercial — we need to know which aircraft give us the least stress.
+As our company considers entering the aviation sector, it is essential to understand the safety records of different aircraft types. Certain aircraft models have demonstrated consistent reliability, while others present elevated operational risks.
 
-It’s not just about looks or speed. Even the most basic things like weather, type of flight or how many people are onboard can change everything. We want something safe, reliable and that won’t turn into a legal or financial nightmare down the road.
-
-In this project, we used historical data to check which planes make sense to start with.  
+This analysis uses historical accident data to identify aircraft with strong safety profiles and to understand the contributing factors behind aviation incidents. The goal is to inform aircraft acquisition decisions with evidence-based insights, minimizing exposure to financial, legal, and operational risk.  
 
 #### For a simple overview of the analysis, check this [link](#)  
 #### The full Python notebook is available here [link](#)
@@ -23,28 +21,26 @@ In this project, we used historical data to check which planes make sense to sta
 
 ## Business Understanding  
 
-Flying will always carry some risk. But we don’t want to go into it blind. Some models just do better. Some crash less. Some crash but people survive. Some crash and it’s over. We need to know the difference before we buy.
+Aviation carries inherent risk, but these risks can be mitigated through informed decision-making. As new participants in this industry, we aim to identify aircraft models that offer the most favorable safety records.
 
-We’re asking:
+Key questions guiding this analysis:
 
 1. What aircraft types have the lowest risk based on data?  
 2. Which ones have the most deaths and which are survivable?  
-3. When are accidents most likely to happen — during takeoff? landing?  
+3. When are accidents most likely to happen during takeoff?, landing?  
 4. Are there weather patterns that show up in the data often?  
 5. Can we really say that flying is becoming safer with time?  
 6. What models should we be careful about based on their track record?
-
-We’re not just looking at numbers — we’re looking for peace of mind.
 
 ---
 
 ## Data Understanding  
 
-The data was pulled from an open aviation source. It includes reported accidents and incidents involving aircraft mainly in the US from the 1960s up to recent years.
+This project utilizes publicly available aircraft accident data compiled by the National Transportation Safety Board (NTSB). The dataset includes civil aviation accidents and selected incidents in the United States from the 1960s through the early 2020s.
 
-Each row is a different accident. We’re talking about mechanical failures, weather issues, human error, etc. Some small, some fatal.  
+Each record in the dataset represents a unique aviation incident.
 
-Some of the columns we focused on are:
+Key fields used in this analysis include:
 
 - `Event.Date` – when it happened  
 - `Make`, `Model` – what kind of plane  
