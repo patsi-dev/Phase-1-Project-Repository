@@ -4,7 +4,8 @@ As our company considers entering the aviation sector, it is essential to unders
 
 This analysis uses historical accident data to identify aircraft with strong safety profiles and to understand the contributing factors behind aviation incidents. The goal is to inform aircraft acquisition decisions with evidence-based insights, minimizing exposure to financial, legal, and operational risk.  
 
-#### For a non-technical presentation of the data, check this [link](https://github.com/patsi-dev/Phase-1-Project-Repository/blob/main/Aircraft_Safety_Presentation_Final.pdf)  
+#### For a non-technical presentation of the data, check this [link](https://github.com/patsi-dev/Phase-1-Project-Repository/blob/main/Presentation.pdf)
+  
 #### For a Tableau presentation, refer to this [Aircraft_Risk_Analysis_Final](https://public.tableau.com/authoring/Aircraft_Risk_Analysis_Final_Visualisation/Dashboard1#1)
 
 ---
